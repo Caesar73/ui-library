@@ -1,0 +1,50 @@
+{
+  "name": "cellula",
+  "description": "cellula frameworks...",
+  "version": "0.4.1",
+  "homepage": "https://github.com/wb-jianglm/cellula",
+  "author": {
+    "name": "'wb-jianglm'",
+    "email": "'wb-jianglm@alipay.com'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wb-jianglm/cellula.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wb-jianglm/cellula/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/wb-jianglm/cellula/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/cellula",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "alias": {
+    "cellula-namespace": "dest/cellula/0.4.1/cellula-namespace",
+    "cellula-class": "dest/cellula/0.4.1/cellula-class",
+    "cellula-util": "dest/cellula/0.4.1/cellula-util",
+    "cellula-events": "dest/cellula/0.4.1/cellula-events",
+    "cellula-cell": "dest/cellula/0.4.1/cellula-cell",
+    "cellula-element": "dest/cellula/0.4.1/cellula-element",
+    "cellula-collection": "dest/cellula/0.4.1/cellula-collection"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-cmd-concat": "~0.2.7",
+    "grunt-cmd-transport": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
